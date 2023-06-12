@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Denk+One&family=Inter&family=Poppins&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+header {
+  max-width: 190rem;
+  margin: 0 auto;
+  background-image: url(/img/header/Rectangle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 5.8rem;
+  padding-bottom: 11.6rem;
+  text-align: center;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+header .logo .img {
+  width: 7.8rem;
+  height: 8.4rem;
+}
+header .logo .img img {
+  width: 100%;
+}
+header .logo .hed_text {
+  margin-left: 2rem;
+}
+header .logo .hed_text h5 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6rem;
+  line-height: 6rem;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+header .logo .hed_text h6 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #FFFFFF;
+  border-radius: 59px;
+  padding: 1.9rem 4.8rem 1.8rem 4.7rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 5rem;
+  margin-bottom: 1.7rem;
+}
+header h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14.4rem;
+  line-height: 13.4rem;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10rem;
+}
+header button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #48924F;
+  border: none;
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F9F9F9 100%);
+  box-shadow: 0px 10px 50px rgba(16, 51, 30, 0.5);
+  border-radius: 35px;
+  padding: 2.2rem 5.3rem;
+}
+
+.services_section {
+  max-width: 190rem;
+  margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
+  padding: 7rem 0 5rem 0;
+}
+.services_section h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 9.6rem;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 5rem;
+}
+.services_section .imge {
+  width: 10.9rem;
+  height: 9.4rem;
+  position: absolute;
+  top: 12rem;
+  left: 62rem;
+}
+.services_section .imge img {
+  width: 100%;
+}
+.services_section .cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.2rem;
+}
+.services_section .cards .card {
+  width: 33%;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(16, 51, 30, 0.1);
+  border-radius: 3rem;
+}
+.services_section .cards .card .img {
+  width: 100%;
+}
+.services_section .cards .card .img img {
+  width: 100%;
+}
+.services_section .cards .card h6 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #0D4D14;
+  margin: 3rem 0 1rem 3rem;
+}
+.services_section .cards .card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #0D4D14;
+  margin: 0 3rem 3rem 3rem;
+}
+.services_section .serv_but {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3.5rem;
+}
+.services_section .serv_but button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #48924F;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 30px rgba(50, 175, 100, 0.15);
+  border-radius: 35px;
+  padding: 2.2rem 5.3rem;
+}
+
+.titil {
+  max-width: 190rem;
+  margin: 0 auto;
+  position: relative;
+}
+.titil h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 9.6rem;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 5rem;
+}
+.titil .imge {
+  width: 10.9rem;
+  height: 9.4rem;
+  position: absolute;
+  top: 4.5rem;
+  left: 85rem;
+}
+.titil .imge img {
+  width: 100%;
+}
+
+.about_us {
+  max-width: 190rem;
+  margin: 0 auto;
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+  background-image: url("/img/About_section/Rectangle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about_us .text_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-top: 15.4rem;
+}
+.about_us .text_box p {
+  width: 33.3%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.about_us .about_but {
+  display: flex;
+  justify-content: center;
+}
+.about_us .about_but button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #48924F;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 30px rgba(50, 175, 100, 0.15);
+  border-radius: 35px;
+  padding: 2.2rem 5.3rem;
+  margin-top: 5rem;
+}
+
+.testymonials_section {
+  max-width: 190rem;
+  margin: 0 auto;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+.testymonials_section h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 9.6rem;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 7rem;
+}
+.testymonials_section .testymonials_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5rem;
+}
+.testymonials_section .testymonials_card .card {
+  width: 48%;
+  display: flex;
+  gap: 1.4rem;
+  padding: 3rem 3rem;
+  background: #FFFFFF;
+  border: 1px solid #6CB981;
+  border-radius: 4rem;
+}
+.testymonials_section .testymonials_card .card h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #6CB981;
+}
+.testymonials_section .testymonials_card .card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0D4C14;
+}
+.testymonials_section .testymonials_card .card .stars {
+  display: flex;
+  gap: 0.911rem;
+}
+
+.contact_us {
+  max-width: 190rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+.contact_us h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 9.6rem;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 7rem;
+}
+.contact_us .con_left {
+  width: 50%;
+  display: flex;
+  display: inline;
+}
+.contact_us .con_left input {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+  background: #9FDEA9;
+  border-radius: 6.1rem;
+  padding: 1.7rem 0 1.9rem 2.1rem;
+}
+.contact_us .con_right {
+  width: 50%;
+}
