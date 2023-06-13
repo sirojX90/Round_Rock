@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Denk+One&family=Inter&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=DM+Sans&family=DM+Serif+Display&family=Denk+One&family=Inter&family=Poppins&display=swap");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -94,7 +95,6 @@ header button {
 .services_section {
   max-width: 190rem;
   margin: 0 auto;
-  border: 1px solid red;
   position: relative;
   padding: 7rem 0 5rem 0;
 }
@@ -298,12 +298,16 @@ header button {
   color: #828282;
   margin-bottom: 7rem;
 }
-.contact_us .con_left {
+.contact_us .con_us {
+  display: flex;
+}
+.contact_us .con_us .con_left {
+  border: 1px solid red;
   width: 50%;
   display: flex;
   display: inline;
 }
-.contact_us .con_left input {
+.contact_us .con_us .con_left input {
   font-style: normal;
   font-weight: 900;
   font-size: 1.4rem;
@@ -311,8 +315,42 @@ header button {
   color: #FFFFFF;
   background: #9FDEA9;
   border-radius: 6.1rem;
+  border: none;
   padding: 1.7rem 0 1.9rem 2.1rem;
 }
-.contact_us .con_right {
+.contact_us .con_us .con_right {
+  border: 1px solid red;
   width: 50%;
+}
+.contact_us .con_us .con_right .info {
+  display: flow-root;
+  gap: 3rem;
+}
+.contact_us .con_us .con_right .info .contact {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.contact_us .con_us .con_right .info .contact p {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #333333;
+}
+
+footer {
+  max-width: 190rem;
+  margin: 0 auto;
+  padding: 6.2rem 0;
+  text-align: center;
+  background: #324B29;
+}
+footer p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
 }
